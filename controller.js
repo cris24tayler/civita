@@ -5,6 +5,8 @@ document.getElementById('cpfForm').addEventListener('submit', function(event) {
     const email = document.getElementById('loginEmail').value.trim();
     const senha = document.getElementById('loginSenha').value.trim();
     const msg = document.getElementById('message');
+    const inputField = document.getElementById('inputField');
+    const dynamicLink = document.getElementById('dynamicLink');
     let messages = [];
 
     // Validação de Email
